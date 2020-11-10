@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <!--hi! what's up? this is a website made as a project with only html and css i might change the code and add javascript in future but this version will stay as the first version of the project. feel free to tell me wha you think about it!!!-->
+  <head>
+    <meta charset="utf-8">
+    <title>my-blog</title>
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <style>
+	  html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+  background-image: url("https://www.dropbox.com/s/4ng2oy8oel697zb/download%20%281%29.jpg?raw=1");
+    padding: 10px;
+    margin: 0;
+  color:white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("https://www.dropbox.com/s/slniterannuda71/bg23.png?raw=1");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+#name {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+#jump-section {
+    background-image: url("https://www.dropbox.com/s/istqxxf08g7qchy/images%20%281%29.jpg?raw=1");
+}
+#jump-secion img {
+  background-repeat: no-repeat;
+  display:block;
+}
+#jump-to {
+  text-align: right;
+  font-size: 20pt;
+}
+a {
+  text-decoration:none;
+  color:yellow;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+}
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+
+#languages {
+  font-size:15pt
+}
+#icon {
+  height:100px;
+  width:100px;
+  margin-top:10px;
+  margin:auto;
+  margin-left: 100px;
+}
+	</style>
+	</head>
+  <body>
+    <!-- header start -->
+        <div id="header" class="section">
+            <img alt="profileish" class="img-circle" src="https://www.dropbox.com/s/9eabtaymgxzl8rx/for%20profile.jpg?raw=1">
+            <p id=name>Omid Hazeq</p>
+        </div>
+        <!-- header end -->
+    <!-- jump section starts-->
+    <div id="jump-section">
+                <p id="jump-to"><a href="#languages">language skills</a>
+          <p id="jump-to"><a href="#IT">IT skills</a></p>
+          <p id="jump-to"><a href="#about-me">about me</a></p>
+      <p id="jump-to"><a href="#CV">CV</a></p>
+      <p id="jump-to"><a href="#media">media</a></p>
+    </div>
+    <!--my skill section starts-->
+    <div class="section">
+      <h1><span>my skill</span></h1>
+      <h2 class="skills-section">languages<h2>
+      <ul id="languages">
+        <li>Dari(native)
+        <li>Farsi(native)
+        <li>English(C1-C2 Level (advanced level))
+        <li>German(A2 Level)
+          <h2>IT skills<h2>
+            <ul id=IT>
+            <li>HTML <br/>
+<progress min="0" max="100" value="90"></progress> </li>
+              <li>Css <br/>
+<progress min="0" max="100" value="80"></progress> </li>
+              <br/>
+             <li>Python <br/>
+<progress min="0" max="100" value="60"></progress></li>
+    <!--about me section starts-->
+<div class="section">
+	<br/><br/><h1><span>About me</span></h1>
+ <p title="introduction" id="about-me">hey! Im <strong><i>Omid<i></strong> I am a prospective, hard-working, motivated worker who had experience working as an interpreter, designer, salesman and information technology (Teacher).
+I have a high school diploma specialized in mathematics (computer science is part of it) and I will continue my studies in computer science.
+I am open to any field as long as I am qualified for it and I would be happy to learn new things and have future co-operation with you.<br>
+as for soft skills Learning to code gave me <i>problem solving skills</i> and my way to communicate with others on a technical level.<strong>!</p>
+   <p class="quote">"virtue is more clearly manifested in the proformance of fine action than in the non-fullfilment of basic principles"
+
+   </div>
+	<!--about me section ends-->
+  <!-- Media section start -->
+        <div class="section">
+   <h1 id="media"><span>My Media</span></h1>
+       <a href="https://github.com/araya0079/" target="blank">
+
+          </a>
+        </div>
+  <!-- Media section end -->
+<svg class="face" height="100" width="100">
+<circle cx="50" cy="50" r="50" fill="#FDD835"/>
+<circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+ <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+<circle cx="30" cy="30" r="5" fill="#000000"/>
+<circle cx="70" cy="30" r="5" fill="#000000"/>
+<path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" /> </svg>
+          <!--contact section starts-->
+          <div class="section">
+ <h1 id="contact"><span>contact me via</span></h1>
+            <p>email: omidhazegh49@gmail.com</p>
+  </body>
+</html>
